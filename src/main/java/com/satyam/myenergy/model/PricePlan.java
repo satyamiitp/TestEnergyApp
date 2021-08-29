@@ -29,6 +29,10 @@ public class PricePlan {
 		this.pricePlanComparisons = pricePlanComparisons;
 	}
 
+	@Override
+	public String toString() {
+		return super.toString();
+	}
 	
 	
 	
