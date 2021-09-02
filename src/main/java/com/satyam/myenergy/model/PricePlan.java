@@ -3,7 +3,9 @@ package com.satyam.myenergy.model;
 import java.math.BigDecimal;
 
 public class PricePlan {
-	//change1
+
+	//change2
+
 	private String  pricePlanId;
 	
 	private PricePlanComparisons pricePlanComparisons;
