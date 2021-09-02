@@ -22,7 +22,7 @@ import com.satyam.myenergy.serviceImpl.ReadingServiceImpl;
 
 @SpringBootTest
 class MyEnergyAppApplicationTests {
-	
+	//chnage1
 	@Mock
 	ReadingRepository readingRepository;
 	
