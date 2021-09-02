@@ -2,7 +2,7 @@ package com.satyam.myenergy.model;
 
 public class Price {
 	
-	
+	//change1
 	String rate ;
 	String itemName ;
 	
