@@ -4,6 +4,7 @@ public class Price {
 	
 	
 	String rate ;
+	String itemName ;
 	
 	
 	Price()
