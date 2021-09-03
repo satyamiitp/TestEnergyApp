@@ -10,7 +10,10 @@ public class Price {
 	String rate ;
 	String itemName ;
 	
-	
+	public String getRate()
+	{
+		
+	}
 	Price()
 	{
 		System.out.println(" Hello constructor");
