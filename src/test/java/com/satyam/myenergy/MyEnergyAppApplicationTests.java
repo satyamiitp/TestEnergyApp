@@ -46,11 +46,7 @@ class MyEnergyAppApplicationTests {
 		assertEquals(new BigDecimal(0.0503),readingServiceImpl.getAllReadings().get(0).getElectricityReadings().getReading());
 		assertNotNull(readingServiceImpl.getAllReadings().get(0).getElectricityReadings().getTime());
 		assertNotNull(readingServiceImpl.getAllReadings());
-<<<<<<< HEAD
-		System.out.println(" Hello getAllReadingsTest1");
-=======
-	        System.out.println(" Hello getAllReadingsTest1");
-
+                System.out.println(" Hello getAllReadingsTest1");
 	}
 	
 	
