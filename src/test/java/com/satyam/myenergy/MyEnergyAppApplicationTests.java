@@ -47,6 +47,7 @@ class MyEnergyAppApplicationTests {
 		assertNotNull(readingServiceImpl.getAllReadings().get(0).getElectricityReadings().getTime());
 		assertNotNull(readingServiceImpl.getAllReadings());
 	        System.out.println(" Hello getAllReadingsTest1");
+	        System.out.println(" Hello getAllReadingsTest Upsream");
 	}
 	
 	
