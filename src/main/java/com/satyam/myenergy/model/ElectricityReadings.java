@@ -14,7 +14,7 @@ public class ElectricityReadings {
     
     public ElectricityReadings()
     {
-    	
+    	System.out.println(" Hello ElectricityReadings bro");
     }
 
 	
