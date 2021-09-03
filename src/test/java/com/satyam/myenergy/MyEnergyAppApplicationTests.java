@@ -39,6 +39,7 @@ class MyEnergyAppApplicationTests {
 	@Test
    public void getAllReadingsTest() 
 	{
+	        System.out.println(" Hello getAllReadingsTest");
 		DataMock dataMock = new DataMock();
 		when(readingRepository.getReadingList()).thenReturn(dataMock.getReadingList());
 		assertEquals("smart-meter-0", readingServiceImpl.getAllReadings().get(0).getSmartMeterId());

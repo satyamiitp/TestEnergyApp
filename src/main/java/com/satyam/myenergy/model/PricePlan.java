@@ -12,7 +12,7 @@ public class PricePlan {
 	
 	public PricePlan()
 	{
-		
+		System.out.println(" Hello price plan  bro");
 	}
 
 	public String getPricePlanId() {
