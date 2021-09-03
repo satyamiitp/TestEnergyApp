@@ -39,15 +39,18 @@ class MyEnergyAppApplicationTests {
 	@Test
    public void getAllReadingsTest() 
 	{
-	        System.out.println(" Hello getAllReadingsTest");
+	    System.out.println(" Hello getAllReadingsTest");
 		DataMock dataMock = new DataMock();
 		when(readingRepository.getReadingList()).thenReturn(dataMock.getReadingList());
 		assertEquals("smart-meter-0", readingServiceImpl.getAllReadings().get(0).getSmartMeterId());
 		assertEquals(new BigDecimal(0.0503),readingServiceImpl.getAllReadings().get(0).getElectricityReadings().getReading());
 		assertNotNull(readingServiceImpl.getAllReadings().get(0).getElectricityReadings().getTime());
 		assertNotNull(readingServiceImpl.getAllReadings());
-	        System.out.println(" Hello getAllReadingsTest1");
-	        System.out.println(" Hello getAllReadingsTest Upsream");
+
+        System.out.println(" Hello getAllReadingsTest1");
+        System.out.println(" Hello getAllReadingsTest1 Local ");
+	    System.out.println(" Hello getAllReadingsTest Upsream");
+
 	}
 	
 	
