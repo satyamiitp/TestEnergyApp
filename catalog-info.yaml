@@ -14,9 +14,9 @@ metadata:
     - title: Discord Chat
       url: https://discord.com/invite/EBHEGzX
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:https://github.com/RoadieHQ/sample-service/tree/main
     
 spec:
   type: service
-  owner: CNCF
+  owner: guest
   lifecycle: experimental
